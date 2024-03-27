@@ -1,0 +1,105 @@
+header {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+  .grid-item {
+    display: flex;
+    background-color: DodgerBlue;
+    width: 1140px;
+    height: 300px;
+    padding: 30px;
+    align-items: center;
+  }
+  
+.grid-item-1 {
+    display: flex;
+    background-color: red;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .grid-item-2 {
+    display: flex;
+    background-color: green;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .grid-item-3 {
+    display: flex;
+    background-color: yellow;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .grid-item-4 {
+    display: flex;
+    background-color: purple;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .grid-item-5 {
+    display: flex;
+    background-color: wheat;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .grid-item-6 {
+    display: flex;
+    background-color:peru;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .grid-item-7 {
+    display: flex;
+    background-color: lightcoral;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .footer{
+    background-color: aqua;
+    display: grid;
+    padding: 45px;
+    text-align: center;
+  }
+
+  #para1{
+    text-align: center;
+    margin: auto;
+  }
+
+  #para2{
+    text-align: center;
+    margin: auto;
+  }
+
+  img {
+    padding: 10px;
+    border-radius: 20px;
+  }
