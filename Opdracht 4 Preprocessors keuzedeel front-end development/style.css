@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* scss variabelen */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #333;
+}
+body header > a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+body header > a h1 {
+  font-size: 15px;
+}
+body header nav li {
+  list-style-type: none;
+  float: left;
+}
+body header nav li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body header nav li a:hover {
+  background-color: #111;
+}
+body section {
+  text-align: center;
+  padding: 10px;
+}
+body section img {
+  padding: 10px;
+  border-radius: 20px;
+}
+body #para9 {
+  background-color: rebeccapurple;
+}
+body #para8 {
+  background-color: peru;
+}
+body #para7 {
+  background-color: yellowgreen;
+}
+body #para6 {
+  background-color: aqua;
+}
+body #para5 {
+  background-color: red;
+}
+body #para4 {
+  background-color: aquamarine;
+}
+body #para3 {
+  background-color: green;
+}
+body #para2 {
+  background-color: olive;
+}
+body footer {
+  background-color: aqua;
+  display: grid;
+  padding: 45px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
