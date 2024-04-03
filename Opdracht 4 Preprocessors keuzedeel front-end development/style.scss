@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* scss variabelen */
+
+$ftrcolor: aqua;
+$black: #111;
+$showing: block;
+$clrwhite: white;
+$bgcolor: #333;
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+  header {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: $bgcolor;
+
+    > a {
+      margin: 10px;
+      color: $clrwhite;
+      text-decoration: none;
+
+      h1 {
+        font-size: 15px;
+      }
+    }
+
+    nav {
+      li {
+        list-style-type: none;
+        float: left;
+
+        a {
+          display: $showing;
+          color: white;
+          text-align: left;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        a:hover {
+          background-color: $black;
+        }
+      }
+    }
+  }
+
+  section {
+    text-align: center;
+    padding: 10px;
+
+    img {
+      padding: 10px;
+      border-radius: 20px;
+    }
+  }
+
+  #project {
+    background-color: rebeccapurple;
+  }
+
+  #links {
+    background-color: peru;
+  }
+
+  #watkenik {
+    background-color: yellowgreen;
+  }
+
+  #werk {
+    background-color: aqua;
+  }
+
+  #opleiding {
+    background-color: red;
+  }
+
+  #kennis {
+    background-color: aquamarine;
+  }
+
+  #contact {
+    background-color: green;
+  }
+
+  #wiebenik {
+    background-color: olive;
+  }
+
+  footer {
+    background-color: $ftrcolor;
+    display: grid;
+    padding: 45px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    header {
+      background-color: red;
+    }
+    header > a {
+      color: green;
+    }
+    #project {
+      background-color: maroon;
+    }
+    #links {
+      background-color: blanchedalmond;
+    }
+    #watkenik {
+      background-color: purple;
+    }
+    #werk {
+      background-color: bisque;
+    }
+    #opleiding {
+      background-color: blue;
+    }
+    #kennis {
+      background-color: navy;
+    }
+    #contact {
+      background-color: khaki;
+    }
+    #wiebenik {
+      background-color: hotpink;
+    }
+    footer {
+      background-color: goldenrod;
+    }
+  }
+}
