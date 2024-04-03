@@ -1,7 +1,0 @@
-Keuzedeel front-end development opdracht 3
-
-Voor welke devices, browser versies en resoluties zal de front-end responsive worden:
-
-Het zal responsive worden voor telefoon en laptop.
-De browser versie zal Microsoft Edge zijn.
-De resolutie werken voor laptop en telefoon. 
