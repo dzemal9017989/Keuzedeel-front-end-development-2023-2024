@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: 'Montserrat';
+  src:  url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('ttf'),
+}
 /* scss variabelen */
 body {
   font-family: "Montserrat", sans-serif;
@@ -70,8 +73,9 @@ body footer {
   display: grid;
   padding: 45px;
   text-align: center;
+  
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 1100px) {
   body header {
     background-color: red;
   }
